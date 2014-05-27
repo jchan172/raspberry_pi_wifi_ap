@@ -1,7 +1,7 @@
 README
 ======
 
-This repo contains the script `install-rt8188cus.sh` that installs and configures all the necessary tools for making a Raspberry Pi using a dongle that has a Realtek RTL8188CUS chipset into a wifi access point. I've used this along with PiUi SD card image (tutorial [here][PiUi]). This is taken from [this blog][RTL8188 Access Point installation script] and modified to address some small gotchas (mentioned in the Notes section). Once the Raspberry Pi is set up, pull this repo down, and run
+This repo contains the script `install-rt8188cus.sh` that installs and configures all the necessary tools for making a Raspberry Pi using a dongle that has a Realtek RTL8188CUS chipset into a wifi access point. I've used this along with PiUi SD card image (tutorial [here][PiUi Tutorial]). This is taken from [this blog][RTL8188 Access Point installation script] and modified to address some small gotchas (mentioned in the Notes section). Once the Raspberry Pi is set up, pull this repo down, and run
 
 	sudo chown root:root install-rtl8188cus.sh
 	sudo chmod 755 install-rtl8188cus.sh
